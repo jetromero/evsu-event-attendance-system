@@ -16,10 +16,10 @@ $supabase_key = '';
 // This is used for syncing user registration data to a backup/secondary project
 
 // Your secondary Supabase project URL
-$supabase_secondary_url = 'https://zegomgvvlgdijepeyzjp.supabase.co';
+$supabase_secondary_url = '';
 
 // Your secondary Supabase service role key (needed for auth bypass on secondary project)
-$supabase_secondary_key = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InplZ29tZ3Z2bGdkaWplcGV5empwIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc0ODQ1Njc0MywiZXhwIjoyMDY0MDMyNzQzfQ.nhQRHOrZra-0JBLe-AmgGURY89AWrGVKSnkhI0GTnrY';
+$supabase_secondary_key = '';
 
 // Flag to enable/disable dual-sync (set to false to disable secondary sync)
 $enable_dual_sync = true;
