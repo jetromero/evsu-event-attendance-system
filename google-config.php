@@ -7,13 +7,13 @@
 
 // Your existing Google Spreadsheet ID (extract from the URL)
 // Example: https://docs.google.com/spreadsheets/d/1ABC123DEF456/edit
-// Your ID would be: 1ABC123DEF456
-define('GOOGLE_SPREADSHEET_ID', '1RCKO6ABpoFMz9fEF1rZVZMFOix7R8WW4l8t56ryRYJ8');
+// Your ID would be: 
+define('GOOGLE_SPREADSHEET_ID', '');
 
 // Your existing Google Drive folder ID (extract from the URL)
 // Example: https://drive.google.com/drive/folders/1XYZ789ABC123
-// Your ID would be: 1XYZ789ABC123
-define('GOOGLE_DRIVE_FOLDER_ID', '1n6FXkOLicYJhriHXSRLq8Xh_x7mRG0BZ');
+// Your ID would be: 
+define('GOOGLE_DRIVE_FOLDER_ID', '');
 
 // Configuration for different report types
 $GOOGLE_CONFIG = [
