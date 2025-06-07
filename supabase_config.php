@@ -6,11 +6,11 @@ date_default_timezone_set('Asia/Manila');
 // Replace these with your actual Supabase project credentials
 
 // Your primary Supabase project URL (found in your Supabase dashboard)
-$supabase_url = 'https://tlpllfglbtjxjwdvqxmc.supabase.co';
+$supabase_url = '';
 
 // Your primary Supabase service role key (needed for custom auth without Supabase Auth)
 // NOTE: You need to get the service role key from your primary Supabase project under Settings > API
-$supabase_key = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InRscGxsZmdsYnRqeGp3ZHZxeG1jIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc0ODUzNzQxNywiZXhwIjoyMDY0MTEzNDE3fQ.C0aXhl7u8dfTJPXvtu7i9KGJpfJKBWxfvAqnMYmBH2Q';
+$supabase_key = '';
 
 // Secondary Supabase configuration for dual-sync
 // This is used for syncing user registration data to a backup/secondary project
