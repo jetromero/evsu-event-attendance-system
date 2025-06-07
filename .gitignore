@@ -1,0 +1,43 @@
+# Security - Never commit credentials
+google-credentials.json
+*.json
+*.key
+*.pem
+
+# Dependencies
+vendor/
+node_modules/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+error.log
+
+# Cache
+cache/
+tmp/
+temp/
+
+# PHP specific
+composer.phar
+composer.lock
+
+# Backup files
+*.bak
+*.backup
+*.sql 
